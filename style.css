@@ -1,0 +1,192 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+
+/* MAIN */
+
+main {
+  width: 100%;
+  padding: 20px 35px;
+}
+
+
+/* SECTIONS */
+
+section {
+  width: 100%;
+  background: white;
+  padding: 20px 25px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+section h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+
+/* IMAGE */
+
+figure {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+figure img {
+  width: 180px;
+  height: 210px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
+
+
+/* TEXT */
+
+p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+li {
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+
+/* TIMELINE */
+
+#timeline article {
+  border-left: 3px solid #222;
+  padding: 4px 15px;
+  margin: 8px 0;
+}
+
+#timeline article h3 {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+#timeline article p {
+  margin: 0;
+}
+
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/* 
+   MOBILE
+ */
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    padding: 18px 12px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  main {
+    padding: 12px;
+  }
+
+  section {
+    padding: 18px 15px;
+    margin-bottom: 12px;
+  }
+
+  section h2 {
+    font-size: 22px;
+  }
+
+  section h3 {
+    font-size: 19px;
+  }
+
+  figure img {
+    width: 170px;
+    height: auto;
+  }
+
+  p,
+  li {
+    font-size: 15px;
+  }
+
+  #timeline article {
+    padding: 5px 12px;
+    margin: 7px 0;
+  }
+
+  footer {
+    padding: 12px;
+  }
+}
+
+
+
+
